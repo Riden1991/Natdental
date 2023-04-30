@@ -1,0 +1,115 @@
+/* Set the background color for the entire page */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Set the font for the entire page */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: turquoise;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: turquoise;
+}
+
+/* Style the main content */
+main {
+  margin: 20px;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+section h2 {
+  color: turquoise;
+  margin-top: 0;
+}
+
+/* Style the contact section */
+#contact ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contact li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#contact li:last-child {
+  margin-right: 0;
+}
+
+#contact a {
+  color: turquoise;
+}
+
+#contact a:hover {
+  color: #333;
+}
+
+/* Style the footer */
+footer {
+  background-color: lightpurple;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+/* Agregando estilos para la nueva columna de fotos en la parte derecha */
+.left-column {
+  width: 63%;
+  float: left;
+}
+
+.right-column {
+  width: 35%;
+  float: right;
+  margin-left: 20px;
+}
+
+.right-column img {
+  display: block;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
